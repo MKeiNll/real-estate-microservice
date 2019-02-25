@@ -4,10 +4,13 @@ import com.realestatemicroservice.dao.RealEstateRepository;
 import com.realestatemicroservice.exceptions.NoFieldsToEditSpecifiedException;
 import com.realestatemicroservice.exceptions.RealEstateObjectDoesNotExistException;
 import com.realestatemicroservice.model.RealEstate;
-import com.sun.tools.javac.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class RealEstateServiceImpl implements RealEstateService {
