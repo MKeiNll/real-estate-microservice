@@ -1,4 +1,4 @@
-# realestate-microservice
+# real-estate-microservice
 
 A real estate microservice with the CRUD functionality made on Java 11 & Spring Boot & Gradle.
 
