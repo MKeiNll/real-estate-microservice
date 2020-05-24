@@ -1,12 +1,11 @@
-# real-estate-microservice
+# Real estate microservice
 
-A real estate microservice with the CRUD functionality made on Java 11 & Spring Boot & Gradle.
+A real estate microservice. Made on Java 11, Spring Boot & Gradle.
 
-Saves and processes data in an in-memory HSQL database.
+## Features
 
-The API implements JSON format.
++ Saves and processes data in an in-memory HSQL database.
++ CRUD functionality.
++ The API implements JSON format.
 
-Running the application:
-```
-./gradlew bootRun
-```
+```./gradlew bootRun```to run
